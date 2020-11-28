@@ -1,0 +1,107 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.main-inclusive {
+    white-space: nowrap;
+    position: relative;
+
+    .viewer-main {
+        background-color: gold ;
+        width: 60%;
+        height: 100vh;
+        display: inline-block;
+
+        nav {
+            position: fixed;
+
+            ul {
+                text-align: center;
+
+                li {
+                    padding: 0 10px;
+                    display: inline-block;
+                    color: lightcoral;
+
+                    span {
+                        color: black;
+                        font-size:1.5rem ;
+                        font-weight: bold;
+                        // padding: 5px;
+                        text-decoration: underline;
+                        // border: 5px solid black;
+                    }
+                }
+            }
+        }
+        
+        .welcome-box {
+            padding: 60px;
+
+            h1 {
+                font-size: 5em;
+                margin-top: 20%;
+                margin-bottom: 30px;
+            }
+        }
+    }
+
+    .form-container {
+        position: absolute;
+        top: 0;
+        width: 40%;
+        height: 100vh;
+        display: inline-block;
+        background-color: #ffffff;
+        padding: 0px;
+        margin: 0px;
+
+        .signup-form {
+            width: 50%;
+            margin: 0;
+            padding-top: 25%;
+            padding-left: 25%;
+            padding-right: 25%;
+            
+
+            input {
+                width: 100%;
+                padding: 10px;
+                // align-self: center;
+            }
+            }
+
+            .second-nav {
+
+                    position: relative;
+        
+                    ul {
+                        text-align: right;
+        
+                        li {
+                            padding: 0 10px;
+                            display: inline-block;
+                            color: lightcoral;
+                        }
+                    }
+                
+            }
+        }
+    }
+    // .signup-form {
+    //     background-color: lightcoral;
+    //     width: 40%;
+    //     height: 100vh;
+    //     display: inline-block;
+    //     float: right;
+    // }
+    
+
+
+
+
+
+
+
